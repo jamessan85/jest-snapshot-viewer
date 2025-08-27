@@ -2,7 +2,7 @@
   "name": "snapshot-viewer",
   "displayName": "Jest Snapshot Visualizer",
   "description": "View jest html snapshots in either default browser or directly in VS code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "JamesSanderson85",
   "engines": {
     "vscode": "^1.103.0"
