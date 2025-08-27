@@ -24,6 +24,7 @@
       }
     ]
   },
+  "repository": "https://github.com/jamessan85/jest-snapshot-viewer",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
