@@ -12,6 +12,7 @@
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
+  "icon": "",
   "contributes": {
     "commands": [
       {
