@@ -1,6 +1,6 @@
 {
   "name": "snapshot-viewer",
-  "displayName": "snapshot-viewer",
+  "displayName": "Jest Snapshot Viewer",
   "description": "View jest html snapshots",
   "version": "0.1.0",
   "publisher": "JamesSanderson85",
