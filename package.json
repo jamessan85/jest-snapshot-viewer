@@ -1,7 +1,7 @@
 {
   "name": "snapshot-viewer",
-  "displayName": "Jest Snapshot Viewer",
-  "description": "View jest html snapshots",
+  "displayName": "Jest Snapshot Visualizer",
+  "description": "View jest html snapshots in either default browser or directly in VS code",
   "version": "0.1.1",
   "publisher": "JamesSanderson85",
   "engines": {
