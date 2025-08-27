@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Response Component renders successfully with data 1`] = `
+<div class="api-container">
+  <div class="api-header">
+    <h2>API Response Viewer</h2>
+    <div class="api-controls">
+      <button class="refresh-btn">
+        <span class="icon refresh-icon"></span>
+        Refresh
+      </button>
+      <div class="view-toggle">
+        <button class="toggle-btn active" data-view="formatted">Formatted</button>
+        <button class="toggle-btn" data-view="raw">Raw</button>
+      </div>
+    </div>
+  </div>
+  <div class="api-content">
+    <div class="endpoint-info">
+      <span class="method get">GET</span>
+      <span class="endpoint-url">https://api.example.com/v1/users</span>
+      <span class="status-code success">200 OK</span>
+    </div>
+    <div class="response-headers">
+      <h3>Headers</h3>
+      <table class="headers-table">
+        <tbody>
+          <tr>
+            <td class="header-name">Content-Type</td>
+            <td class="header-value">application/json</td>
+          </tr>
+          <tr>
+            <td class="header-name">Cache-Control</td>
+            <td class="header-value">max-age=3600</td>
+          </tr>
+          <tr>
+            <td class="header-name">X-Rate-Limit</td>
+            <td class="header-value">60</td>
+          </tr>
+          <tr>
+            <td class="header-name">X-Rate-Limit-Remaining</td>
+            <td class="header-value">58</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="response-body">
+      <h3>Response Body</h3>
+      <pre class="json-viewer">
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "user",
+      "attributes": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "role": "admin",
+        "created_at": "2025-01-15T08:30:00Z",
+        "updated_at": "2025-08-20T14:22:15Z"
+      },
+      "relationships": {
+        "teams": {
+          "data": [
+            {"id": "101", "type": "team"},
+            {"id": "102", "type": "team"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "type": "user",
+      "attributes": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "role": "editor",
+        "created_at": "2025-02-20T10:15:00Z",
+        "updated_at": "2025-08-18T09:45:30Z"
+      },
+      "relationships": {
+        "teams": {
+          "data": [
+            {"id": "102", "type": "team"}
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "101",
+      "type": "team",
+      "attributes": {
+        "name": "Engineering",
+        "description": "Software engineering team"
+      }
+    },
+    {
+      "id": "102",
+      "type": "team",
+      "attributes": {
+        "name": "Marketing",
+        "description": "Digital marketing team"
+      }
+    }
+  ],
+  "meta": {
+    "total": 42,
+    "page": 1,
+    "per_page": 2
+  },
+  "links": {
+    "self": "https://api.example.com/v1/users?page=1&per_page=2",
+    "next": "https://api.example.com/v1/users?page=2&per_page=2",
+    "last": "https://api.example.com/v1/users?page=21&per_page=2"
+  }
+}
+      </pre>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`API Response Component renders error state correctly 1`] = `
+<div class="api-container error">
+  <div class="api-header">
+    <h2>API Response Viewer</h2>
+    <div class="api-controls">
+      <button class="refresh-btn">
+        <span class="icon refresh-icon"></span>
+        Retry
+      </button>
+      <div class="view-toggle">
+        <button class="toggle-btn active" data-view="formatted">Formatted</button>
+        <button class="toggle-btn" data-view="raw">Raw</button>
+      </div>
+    </div>
+  </div>
+  <div class="api-content">
+    <div class="endpoint-info">
+      <span class="method post">POST</span>
+      <span class="endpoint-url">https://api.example.com/v1/users/15/activate</span>
+      <span class="status-code error">404 Not Found</span>
+    </div>
+    <div class="response-headers">
+      <h3>Headers</h3>
+      <table class="headers-table">
+        <tbody>
+          <tr>
+            <td class="header-name">Content-Type</td>
+            <td class="header-value">application/json</td>
+          </tr>
+          <tr>
+            <td class="header-name">Cache-Control</td>
+            <td class="header-value">no-cache</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="response-body">
+      <h3>Response Body</h3>
+      <pre class="json-viewer error-response">
+{
+  "error": {
+    "status": "404",
+    "code": "resource_not_found",
+    "title": "Resource Not Found",
+    "detail": "The requested user with id '15' could not be found.",
+    "source": {
+      "parameter": "id"
+    }
+  }
+}
+      </pre>
+    </div>
+    <div class="error-details">
+      <h3>Troubleshooting</h3>
+      <ul class="troubleshooting-list">
+        <li>Verify that the user ID exists in the system</li>
+        <li>Check your authorization permissions</li>
+        <li>Ensure proper API version is being used</li>
+        <li><a href="#" class="docs-link">View Documentation</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

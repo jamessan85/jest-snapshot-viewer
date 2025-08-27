@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`E-commerce Product Page renders correctly 1`] = `
+<div class="product-page">
+  <nav class="product-breadcrumb">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/electronics">Electronics</a></li>
+      <li><a href="/electronics/smartphones">Smartphones</a></li>
+      <li class="active">TechPro X1 Ultra</li>
+    </ul>
+  </nav>
+  
+  <div class="product-main">
+    <div class="product-gallery">
+      <div class="product-main-image">
+        <img 
+          src="https://example.com/images/techpro-x1-ultra-main.jpg"
+          alt="TechPro X1 Ultra Smartphone - Black" 
+        />
+        <span class="zoom-icon"></span>
+      </div>
+      <div class="product-thumbnails">
+        <div class="thumbnail active">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb1.jpg" 
+            alt="TechPro X1 Ultra - Front" 
+          />
+        </div>
+        <div class="thumbnail">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb2.jpg" 
+            alt="TechPro X1 Ultra - Back" 
+          />
+        </div>
+        <div class="thumbnail">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb3.jpg" 
+            alt="TechPro X1 Ultra - Side" 
+          />
+        </div>
+        <div class="thumbnail">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb4.jpg" 
+            alt="TechPro X1 Ultra - Camera Close-up" 
+          />
+        </div>
+      </div>
+    </div>
+    
+    <div class="product-info">
+      <div class="product-header">
+        <h1 class="product-title">TechPro X1 Ultra Smartphone</h1>
+        <div class="product-ratings">
+          <div class="stars">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star half-filled"></span>
+          </div>
+          <a href="#reviews" class="rating-count">458 Reviews</a>
+        </div>
+      </div>
+      
+      <div class="product-price">
+        <span class="current-price">$899.99</span>
+        <span class="original-price">$999.99</span>
+        <span class="discount-tag">10% OFF</span>
+      </div>
+      
+      <div class="product-availability in-stock">
+        <span class="icon"></span>
+        <span>In Stock - Ships within 24 hours</span>
+      </div>
+      
+      <div class="product-variants">
+        <div class="variant-group">
+          <h3>Color:</h3>
+          <div class="color-options">
+            <button class="color-option selected" style="background-color: #000000;">
+              <span class="color-name">Black</span>
+            </button>
+            <button class="color-option" style="background-color: #C0C0C0;">
+              <span class="color-name">Silver</span>
+            </button>
+            <button class="color-option" style="background-color: #E0E0E0;">
+              <span class="color-name">White</span>
+            </button>
+            <button class="color-option" style="background-color: #003366;">
+              <span class="color-name">Blue</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="variant-group">
+          <h3>Storage:</h3>
+          <div class="storage-options">
+            <button class="storage-option">128GB</button>
+            <button class="storage-option selected">256GB</button>
+            <button class="storage-option">512GB</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-actions">
+        <div class="quantity-selector">
+          <button class="quantity-btn minus">-</button>
+          <input type="number" class="quantity-input" value="1" min="1" max="10" />
+          <button class="quantity-btn plus">+</button>
+        </div>
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+      
+      <div class="product-delivery">
+        <div class="delivery-option">
+          <span class="icon delivery-icon"></span>
+          <div class="delivery-info">
+            <h4>Free Shipping</h4>
+            <p>On orders over $50</p>
+          </div>
+        </div>
+        <div class="delivery-option">
+          <span class="icon return-icon"></span>
+          <div class="delivery-info">
+            <h4>30-Day Returns</h4>
+            <p>Satisfaction guaranteed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="product-details">
+    <div class="detail-tabs">
+      <button class="tab-btn active">Description</button>
+      <button class="tab-btn">Specifications</button>
+      <button class="tab-btn">Reviews (458)</button>
+      <button class="tab-btn">FAQs</button>
+    </div>
+    
+    <div class="tab-content description-tab">
+      <h2>Product Description</h2>
+      <p>
+        The TechPro X1 Ultra represents the pinnacle of smartphone innovation. 
+        Featuring a stunning 6.7-inch AMOLED display with a 120Hz refresh rate, 
+        this device delivers incredibly smooth visuals and vibrant colors for an 
+        immersive viewing experience.
+      </p>
+      <p>
+        Powered by the latest octa-core processor and 8GB of RAM, the X1 Ultra 
+        offers lightning-fast performance for all your apps and games. The advanced 
+        quad-camera system with a 108MP main sensor captures professional-quality 
+        photos in any lighting condition.
+      </p>
+      <p>
+        With all-day battery life, fast charging capabilities, and an IP68 water 
+        and dust resistance rating, the TechPro X1 Ultra is the perfect companion 
+        for your busy lifestyle.
+      </p>
+      
+      <div class="feature-highlights">
+        <div class="feature">
+          <span class="feature-icon camera-icon"></span>
+          <h3>108MP Camera</h3>
+          <p>Professional-grade photography in your pocket</p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon battery-icon"></span>
+          <h3>5000mAh Battery</h3>
+          <p>Up to 2 days of usage on a single charge</p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon processor-icon"></span>
+          <h3>Latest Processor</h3>
+          <p>Blazing fast performance for any task</p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon display-icon"></span>
+          <h3>120Hz AMOLED</h3>
+          <p>Ultra-smooth scrolling and vibrant colors</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`E-commerce Product Page renders out of stock state correctly 1`] = `
+<div class="product-page">
+  <nav class="product-breadcrumb">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/electronics">Electronics</a></li>
+      <li><a href="/electronics/smartphones">Smartphones</a></li>
+      <li class="active">TechPro X1 Ultra</li>
+    </ul>
+  </nav>
+  
+  <div class="product-main">
+    <div class="product-gallery">
+      <div class="product-main-image">
+        <img 
+          src="https://example.com/images/techpro-x1-ultra-main.jpg"
+          alt="TechPro X1 Ultra Smartphone - Black" 
+        />
+        <span class="zoom-icon"></span>
+      </div>
+      <div class="product-thumbnails">
+        <div class="thumbnail active">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb1.jpg" 
+            alt="TechPro X1 Ultra - Front" 
+          />
+        </div>
+        <div class="thumbnail">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb2.jpg" 
+            alt="TechPro X1 Ultra - Back" 
+          />
+        </div>
+        <div class="thumbnail">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb3.jpg" 
+            alt="TechPro X1 Ultra - Side" 
+          />
+        </div>
+        <div class="thumbnail">
+          <img 
+            src="https://example.com/images/techpro-x1-ultra-thumb4.jpg" 
+            alt="TechPro X1 Ultra - Camera Close-up" 
+          />
+        </div>
+      </div>
+    </div>
+    
+    <div class="product-info">
+      <div class="product-header">
+        <h1 class="product-title">TechPro X1 Ultra Smartphone</h1>
+        <div class="product-ratings">
+          <div class="stars">
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star filled"></span>
+            <span class="star half-filled"></span>
+          </div>
+          <a href="#reviews" class="rating-count">458 Reviews</a>
+        </div>
+      </div>
+      
+      <div class="product-price">
+        <span class="current-price">$899.99</span>
+        <span class="original-price">$999.99</span>
+        <span class="discount-tag">10% OFF</span>
+      </div>
+      
+      <div class="product-availability out-of-stock">
+        <span class="icon"></span>
+        <span>Out of Stock - Notify Me When Available</span>
+      </div>
+      
+      <div class="product-variants">
+        <div class="variant-group">
+          <h3>Color:</h3>
+          <div class="color-options">
+            <button class="color-option selected" style="background-color: #000000;">
+              <span class="color-name">Black</span>
+            </button>
+            <button class="color-option" style="background-color: #C0C0C0;">
+              <span class="color-name">Silver</span>
+            </button>
+            <button class="color-option" style="background-color: #E0E0E0;">
+              <span class="color-name">White</span>
+            </button>
+            <button class="color-option disabled" style="background-color: #003366;">
+              <span class="color-name">Blue</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="variant-group">
+          <h3>Storage:</h3>
+          <div class="storage-options">
+            <button class="storage-option">128GB</button>
+            <button class="storage-option selected">256GB</button>
+            <button class="storage-option disabled">512GB</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-actions">
+        <button class="notify-btn">Notify Me When Available</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+      
+      <div class="estimated-restock">
+        <span class="icon calendar-icon"></span>
+        <span>Expected Restock: September 15, 2025</span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

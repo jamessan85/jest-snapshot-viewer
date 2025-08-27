@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correctly with default props 1`] = `
+<button
+  className="btn btn-primary"
+  disabled={false}
+  onClick={[Function]}
+  style={
+    Object {
+      "fontSize": "16px",
+      "padding": "10px 20px",
+    }
+  }
+  type="button"
+>
+  Click Me
+</button>
+`;
+
+exports[`Button Component renders correctly when disabled 1`] = `
+<button
+  className="btn btn-primary disabled"
+  disabled={true}
+  onClick={[Function]}
+  style={
+    Object {
+      "fontSize": "16px",
+      "padding": "10px 20px",
+    }
+  }
+  type="button"
+>
+  Click Me
+</button>
+`;
+
+exports[`Button Component renders correctly with size prop set to large 1`] = `
+<button
+  className="btn btn-primary btn-lg"
+  disabled={false}
+  onClick={[Function]}
+  style={
+    Object {
+      "fontSize": "20px",
+      "padding": "15px 30px",
+    }
+  }
+  type="button"
+>
+  Click Me
+</button>
+`;
+
+exports[`Button Component renders correctly with custom className 1`] = `
+<button
+  className="btn btn-primary custom-class test-class"
+  disabled={false}
+  onClick={[Function]}
+  style={
+    Object {
+      "fontSize": "16px",
+      "padding": "10px 20px",
+    }
+  }
+  type="button"
+>
+  Custom Button Text
+</button>
+`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList.vue renders properly 1`] = `
+<div class="todo-container">
+  <h1 class="todo-title">Todo List</h1>
+  <ul class="todo-items">
+    <li class="todo-item">
+      <input
+        type="checkbox"
+        class="todo-checkbox"
+      />
+      <span class="todo-text">Learn Vue.js</span>
+      <button class="todo-delete-btn">Delete</button>
+    </li>
+    <li class="todo-item">
+      <input
+        type="checkbox"
+        class="todo-checkbox"
+        checked="checked"
+      />
+      <span class="todo-text completed">Setup Jest Testing</span>
+      <button class="todo-delete-btn">Delete</button>
+    </li>
+    <li class="todo-item">
+      <input
+        type="checkbox"
+        class="todo-checkbox"
+      />
+      <span class="todo-text">Build a Vue application</span>
+      <button class="todo-delete-btn">Delete</button>
+    </li>
+  </ul>
+  <div class="todo-add">
+    <input
+      type="text"
+      placeholder="Add a new task..."
+      class="todo-input"
+      value=""
+    />
+    <button class="todo-add-btn" disabled>Add Task</button>
+  </div>
+  <div class="todo-stats">
+    <span>3 items left</span>
+    <div class="todo-filters">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Active</button>
+      <button class="filter-btn">Completed</button>
+    </div>
+    <button class="clear-completed-btn">Clear completed</button>
+  </div>
+</div>
+`;
+
+exports[`TodoList.vue renders empty state correctly 1`] = `
+<div class="todo-container">
+  <h1 class="todo-title">Todo List</h1>
+  <p class="empty-message">No tasks yet. Add a new task to get started!</p>
+  <div class="todo-add">
+    <input
+      type="text"
+      placeholder="Add a new task..."
+      class="todo-input"
+      value=""
+    />
+    <button class="todo-add-btn" disabled>Add Task</button>
+  </div>
+  <div class="todo-stats">
+    <span>0 items left</span>
+    <div class="todo-filters">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Active</button>
+      <button class="filter-btn">Completed</button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Applicant Qualifications Question Integration Tests renders validation error when no selection is posted 1`] = `
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en"
+      style
+>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge"
+    >
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    >
+    <meta name="description"
+          content
+    >
+    <title>
+      Do you have any academic qualifications?
+    </title>
+    <link href="https://example.com/"
+          rel="preconnect"
+    >
+    <link href="https://cdn.example.com/"
+          rel="preconnect"
+          crossorigin
+    >
+    <link type="font/woff2"
+          href="https://cdn.example.com/fonts/FrutigerLTW01-55Roman.woff2"
+          rel="preload"
+          as="font"
+          crossorigin
+    >
+    <link type="font/woff2"
+          href="https://cdn.example.com/fonts/FrutigerLTW01-65Bold.woff2"
+          rel="preload"
+          as="font"
+          crossorigin
+    >
+    <link href="/candidate/public/hmrc-frontend/hmrc-frontend-6.41.0.min.css"
+          rel="stylesheet"
+    >
+    <link href="/candidate/public/css/main.css"
+          rel="stylesheet"
+    >
+    <script src="/candidate/public/generic-frontend/genericuk.min.js"
+            defer
+    >
+    </script>
+    <script src="/candidate/public/hmrc-frontend/hmrc-frontend-6.41.0.min.js"
+            defer
+    >
+    </script>
+    <link rel="shortcut icon"
+          href="/generic-frontend/packages/assets/favicons/favicon.ico"
+          type="image/x-icon"
+    >
+    <link rel="apple-touch-icon"
+          href="/generic-frontend/packages/assets/favicons/apple-touch-icon-180x180.png"
+    >
+    <link rel="mask-icon"
+          href="/generic-frontend/packages/assets/favicons/favicon.svg"
+          color="#005eb8"
+    >
+    <link rel="icon"
+          sizes="192x192"
+          href="/generic-frontend/packages/assets/favicons/favicon-192x192.png"
+    >
+    <meta name="msapplication-TileImage"
+          content="/generic-frontend/packages/assets/favicons/mediumtile-144x144.png"
+    >
+    <meta name="msapplication-TileColor"
+          content="#005eb8"
+    >
+    <meta name="msapplication-square70x70logo"
+          content="/generic-frontend/packages/assets/favicons/smalltile-70x70.png"
+    >
+    <meta name="msapplication-square150x150logo"
+          content="/generic-frontend/packages/assets/favicons/mediumtile-150x150.png"
+    >
+    <meta name="msapplication-wide310x150logo"
+          content="/generic-frontend/packages/assets/favicons/widetile-310x150.png"
+    >
+    <meta name="msapplication-square310x310logo"
+          content="/generic-frontend/packages/assets/favicons/largetile-310x310.png"
+    >
+    <meta name="hmrc-timeout-dialog"
+          content="hmrc-timeout-dialog"
+          data-language="en"
+          data-timeout="0"
+          data-countdown="300"
+          data-keep-alive-url="?continue=true"
+          data-sign-out-url="/candidate/auth/login"
+          data-timeout-url="/candidate/timed-out"
+          data-title="Your session will time out soon"
+          data-message="For your security we&#39;ll sign you out if you do not respond in  "
+          data-keep-alive-button-text="Get more time"
+          data-hide-sign-out-button="true"
+    >
+  </head>
+  <body class=" govuk-frontend-supported"
+        id="main-body"
+  >
+    <a class="generic-skip-link"
+       href="#maincontent"
+    >
+      Skip to main content
+    </a>
+    <div id="heading-body">
+      <script>
+        document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+      </script>
+      <header class="generic-header"
+              role="banner"
+              id="heading-body"
+      >
+        <div class="top-banner"
+             id="cookie-banner"
+        >
+          <div class="generic-width-container">
+            <h2>
+              Cookies on Jobs Service
+            </h2>
+            <p>
+              We&#39;ve put some small files called cookies on your device to help us make improvements to our site.
+            </p>
+            <p>
+              To improve our site we&#39;d also like to use cookies which will send information to Google Analytics. You can
+              <a href="/candidate/cookies"
+                 id="cookies-info-link"
+              >
+                read more about our cookies
+              </a>
+              before you choose.
+            </p>
+            <form class="form"
+                  method="POST"
+                  action="/candidate/save-seen-cookie"
+            >
+              <input type="hidden"
+                     name="_csrf"
+                     value="mocked-csrf-token"
+              >
+              <button class="generic-button"
+                      type="submit"
+                      id="accept-cookies"
+                      name="accept-cookies"
+                      value="true"
+              >
+                Accept analytics cookies
+              </button>
+              <button class="generic-button"
+                      type="submit"
+                      id="reject-cookies"
+                      name="accept-cookies"
+                      value="false"
+              >
+                Do not accept analytics cookies
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="generic-width-container generic-header__container generic-header__logged-in">
+          <div class=" generic-header__logo">
+            <a class="generic-header__link generic-header__link--service generic-header__link--service-short-name"
+               href="/candidate"
+               aria-label="Example Service jobs homepage"
+               data-test="generic-logo-home-link"
+            >
+              <svg class="generic-logo"
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewbox="0 0 40 16"
+                   height="40"
+                   width="100"
+              >
+                <path class="generic-logo__background"
+                      fill="#005eb8"
+                      d="M0 0h40v16H0z"
+                >
+                </path>
+                <path class="generic-logo__text"
+                      fill="#fff"
+                      d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"
+                >
+                </path>
+              </svg>
+              <div class="generic-header__service-name">
+                Jobs
+              </div>
+            </a>
+          </div>
+          <div class="generic-header__content"
+               id="content-header"
+          >
+            <div class="generic-header__menu show-mobile show-tablet">
+              <button class="generic-header__menu-toggle"
+                      id="toggle-menu"
+                      aria-controls="header-navigation"
+                      aria-label="Open menu"
+              >
+                Menu
+              </button>
+            </div>
+            <nav class="gem-c-translation-nav hide-mobile generic-u-margin-0 generic-u-padding-left-7"
+                 aria-label="Translations"
+            >
+              <ul class="generic-header__navigation-list-right">
+                <li class="generic-header__navigation-item generic-header-navigation-item__with-text">
+                  <a href="/candidate/account/overview"
+                     class="generic-header__navigation-link sign-in-link generic-u-padding-top-0 "
+                     id="your-account-link-header"
+                  >
+                    Dave Therave
+                  </a>
+                  <a class="generic-header__navigation-link sign-in-link generic-u-padding-top-0"
+                     id="candidate_sign_out"
+                     href="/candidate/auth/logout"
+                  >
+                    Sign out
+                  </a>
+                </li>
+              </ul>
+              <ul class="generic-header__navigation-list-right">
+                <li class="gem-c-translation-nav__list-item">
+                  <a lang="en"
+                     href="/candidate/locale/en"
+                     class="language-toggle-selected"
+                     id="english-language-link"
+                     data-test="english-language-link"
+                  >
+                    English
+                  </a>
+                </li>
+                <li class="gem-c-translation-nav__list-item-none-border">
+                  <a lang="cy"
+                     href="/candidate/locale/cy"
+                     class="language-toggle"
+                     id="welsh-language-link"
+                     data-test="welsh-language-link"
+                  >
+                    Cymraeg
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <nav class="generic-header__navigation"
+             id="header-navigation"
+             role="navigation"
+             aria-label="Primary navigation"
+             aria-labelledby="label-navigation"
+        >
+          <div class="generic-width-container">
+            <p class="generic-header__navigation-title">
+              <span id="label-navigation"
+                    style="color: white"
+              >
+                Menu
+              </span>
+              <button class="generic-header__navigation-close"
+                      id="close-menu"
+              >
+                <svg class="generic-icon generic-icon__close"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     focusable="false"
+                     width="27"
+                     height="27"
+                >
+                  <path d="M13.41 12l5.3-5.29a1 1 0 1 0-1.42-1.42L12 10.59l-5.29-5.3a1 1 0 0 0-1.42 1.42l5.3 5.29-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l5.29-5.3 5.29 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z">
+                  </path>
+                </svg>
+                <span class="generic-u-visually-hidden"
+                      style="color: white"
+                >
+                  Close menu
+                </span>
+              </button>
+            </p>
+          </div>
+          <ul class="generic-header__navigation-list"
+              id="signedInMenu"
+          >
+            <li class="generic-header__navigation-item show-mobile">
+              <a href="/candidate/account/overview"
+                 class="generic-header__navigation-link"
+              >
+                Dave Therave
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/search"
+              >
+                Search
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/search/saved-job"
+              >
+                Your saved jobs
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/search/saved-searches"
+              >
+                Your job alerts
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/applicant-profile"
+              >
+                Your profile
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/application/list"
+              >
+                Your applications
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item generic-header__navigation-item--for-mobile  hide-tablet">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/auth/logout"
+                 data-test="candidate_sign_out_mobile"
+              >
+                Sign out
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="generic-header__navigation-item generic-header__navigation-item--for-mobile hide-tablet">
+              <a class="generic-header__navigation-link"
+                 href="/candidate/locale/cy"
+              >
+                Display in Welsh (Cymraeg)
+                <svg class="generic-icon generic-icon__chevron-right"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     width="34"
+                     height="34"
+                >
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <noscript>
+          <nav class="header-mobile-menu-no-javascript"
+               id="header-navigation"
+               role="navigation"
+               aria-label="Primary navigation"
+               aria-labelledby="label-navigation"
+          >
+            <ul class="generic-header__navigation-list"
+                id="signedInMenu"
+            >
+              <li class="generic-header__navigation-item show-mobile">
+                <a href="/candidate/account/overview"
+                   class="generic-header__navigation-link"
+                >
+                  Dave Therave
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/search"
+                >
+                  Search
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/search/saved-job"
+                >
+                  Your saved jobs
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/search/saved-searches"
+                >
+                  Your job alerts
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/applicant-profile"
+                >
+                  Your profile
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/application/list"
+                >
+                  Your applications
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item generic-header__navigation-item--for-mobile  hide-tablet">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/auth/logout"
+                   data-test="candidate_sign_out_mobile"
+                >
+                  Sign out
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li class="generic-header__navigation-item generic-header__navigation-item--for-mobile hide-tablet">
+                <a class="generic-header__navigation-link"
+                   href="/candidate/locale/cy"
+                >
+                  Display in Welsh (Cymraeg)
+                  <svg class="generic-icon generic-icon__chevron-right"
+                       xmlns="http://www.w3.org/2000/svg"
+                       viewbox="0 0 24 24"
+                       aria-hidden="true"
+                       width="34"
+                       height="34"
+                  >
+                    <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </noscript>
+      </header>
+      <div class="beta-banner"
+           role="complementary"
+           aria-label="banner"
+      >
+        <div class="generic-width-container ">
+          <strong class="status-box status-box-blue">
+            BETA
+          </strong>
+          <span>
+            Your
+            <a href="mailto:generic.genericjobs@generic.generic.uk?subject=How could we improve Jobs Service service?">
+              feedback
+            </a>
+            will help us to improve this service.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="generic-width-container ">
+      <main class="generic-main-wrapper "
+            id="maincontent"
+            role="main"
+      >
+        <div class="generic-grid-row">
+          <div class="generic-grid-column-two-thirds">
+            <div class="generic-back-link">
+              <a class="generic-back-link__link"
+                 href="#"
+                 id="back-link"
+              >
+                <svg class="generic-icon generic-icon__chevron-left"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewbox="0 0 24 24"
+                     aria-hidden="true"
+                     height="24"
+                     width="24"
+                >
+                  <path d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4 0l-5-5c-.2-.2-.3-.4-.3-.7z">
+                  </path>
+                </svg>
+                Go back
+              </a>
+            </div>
+            <div class="generic-error-summary"
+                 aria-labelledby="error-summary-title"
+                 role="alert"
+                 tabindex="0"
+            >
+              <h2 class="generic-error-summary__title"
+                  id="error-summary-title"
+              >
+                There is a problem
+              </h2>
+              <div class="generic-error-summary__body">
+                <ul class="generic-list generic-error-summary__list">
+                  <li>
+                    <a id="error-qualificationsChoice"
+                       href="#qualificationsChoice"
+                       aria-label="Error: Select yes if you have got any academic qualifications"
+                    >
+                      Select yes if you have got any academic qualifications
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h1 class="generic-heading-l word-wrap"
+                id="heading-container"
+            >
+              <span class="generic-caption-l"
+                    id="job_title"
+              >
+                Your profile
+              </span>
+              <span id="heading">
+                Do you have any academic qualifications?
+              </span>
+            </h1>
+            <form class="form academic-qual-question-form"
+                  method="post"
+                  id="academic-qualifications-question-form"
+            >
+              <input type="hidden"
+                     name="_csrf"
+                     value="mocked-csrf-token"
+              >
+              <p id="qualifications-message">
+                This includes CSEs, O levels, GCSEs, A levels, diplomas and degrees that you&#39;ll have got from school, college, or university.
+              </p>
+              <div class="generic-form-group generic-form-group--error">
+                <fieldset class="generic-fieldset app-fieldset--custom-modifier generic-fieldset-error"
+                          id="error_qualificationsChoice"
+                >
+                  <legend class="generic-fieldset__legend generic-u-visually-hidden">
+                    Have you got any qualifications?
+                  </legend>
+                  <span class="generic-error-message"
+                        id="qualificationsChoice_error"
+                  >
+                    Select yes if you have got any academic qualifications
+                  </span>
+                  <div class="generic-radios generic-radios--inline"
+                       id="qualificationsChoice"
+                  >
+                    <div class="generic-radios__item">
+                      <input class="generic-radios__input"
+                             id="qualificationsChoice_id_option_1"
+                             type="radio"
+                             name="qualificationsChoice"
+                             value="yes"
+                      >
+                      <label id="yes_label"
+                             class="generic-radios__label"
+                             for="qualificationsChoice_id_option_1"
+                      >
+                        Yes
+                      </label>
+                    </div>
+                    <div class="generic-radios__item">
+                      <input class="generic-radios__input"
+                             id="qualificationsChoice_id_option_2"
+                             type="radio"
+                             name="qualificationsChoice"
+                             value="no"
+                      >
+                      <label id="no_label"
+                             class="generic-radios__label"
+                             for="qualificationsChoice_id_option_2"
+                      >
+                        No
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="generic-u-margin-bottom-4 generic-u-padding-top-2">
+                <input class="generic-button"
+                       name="saveAndContinue"
+                       type="submit"
+                       id="save_continue"
+                       value="Save and continue"
+                >
+                <br>
+                <input class="generic-button--link"
+                       name="comeBackLater"
+                       type="submit"
+                       id="save_come_back"
+                       value="Save and come back later"
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+        <noscript>
+          <p style="padding-top: 2rem"
+             id="timeout_message"
+          >
+            For your security we&#39;ll sign you out if you do not move from this page by 01:00pm BST .
+          </p>
+        </noscript>
+      </main>
+    </div>
+    <footer role="contentinfo">
+      <div class="generic-footer"
+           id="generic-footer"
+      >
+        <div class="generic-width-container">
+          <h2 class="generic-u-visually-hidden">
+            Support links
+          </h2>
+          <ul class="generic-footer__list adjust-width">
+            <li class="generic-footer__list-item">
+              <a class="generic-footer__list-item-link"
+                 target="_blank"
+                 id="privacy"
+                 href="/candidate/privacy-policy"
+              >
+                Privacy policy
+              </a>
+            </li>
+            <li class="generic-footer__list-item">
+              <a class="generic-footer__list-item-link"
+                 target="_blank"
+                 id="acceptableUse"
+                 href="/candidate/acceptable-use"
+              >
+                Terms and conditions
+              </a>
+            </li>
+            <li class="generic-footer__list-item">
+              <a class="generic-footer__list-item-link"
+                 target="_blank"
+                 id="accessibility"
+                 href="https://www.generic.generic.uk/our-policies/accessibility/accessibility-statement-generic-jobs-applicants"
+              >
+                Accessibility Statement
+              </a>
+            </li>
+            <li class="generic-footer__list-item">
+              <a class="generic-footer__list-item-link"
+                 target="_blank"
+                 id="cookies"
+                 href="/candidate/cookies"
+              >
+                Cookies
+              </a>
+            </li>
+            <li class="generic-footer__list-item">
+              <a class="generic-footer__list-item-link"
+                 target="_blank"
+                 id="helpText"
+                 href="https://www.generic.generic.uk/new-generic-jobs-service/help-and-support-applicants"
+              >
+                Help and guidance
+              </a>
+            </li>
+          </ul>
+          <p class="generic-footer__copyright">
+            &copy; Crown copyright
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/candidate/public/js/vendor/jquery.min.js">
+    </script>
+    <script src="/candidate/public/js/main.js">
+    </script>
+    <script src="/candidate/govuk/govuk/all.js">
+    </script>
+  </body>
+</html>
+`;
+

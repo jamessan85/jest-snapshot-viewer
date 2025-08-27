@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component renders analytics section correctly 1`] = `
+<div class="dashboard-analytics">
+  <div class="analytics-header">
+    <h2>Performance Analytics</h2>
+    <div class="date-range-selector">
+      <button class="date-btn active">Today</button>
+      <button class="date-btn">Week</button>
+      <button class="date-btn">Month</button>
+      <button class="date-btn">Quarter</button>
+      <div class="custom-date-picker">
+        <input type="date" value="2025-08-19" />
+        <span>to</span>
+        <input type="date" value="2025-08-26" />
+      </div>
+    </div>
+  </div>
+  <div class="analytics-cards">
+    <div class="analytics-card">
+      <div class="card-icon visitors-icon"></div>
+      <div class="card-content">
+        <h3>Visitors</h3>
+        <p class="card-value">24,589</p>
+        <p class="card-trend positive">+12% <span>vs last period</span></p>
+      </div>
+    </div>
+    <div class="analytics-card">
+      <div class="card-icon revenue-icon"></div>
+      <div class="card-content">
+        <h3>Revenue</h3>
+        <p class="card-value">$86,289.45</p>
+        <p class="card-trend positive">+8.3% <span>vs last period</span></p>
+      </div>
+    </div>
+    <div class="analytics-card">
+      <div class="card-icon conversion-icon"></div>
+      <div class="card-content">
+        <h3>Conversion Rate</h3>
+        <p class="card-value">3.45%</p>
+        <p class="card-trend negative">-0.5% <span>vs last period</span></p>
+      </div>
+    </div>
+    <div class="analytics-card">
+      <div class="card-icon orders-icon"></div>
+      <div class="card-content">
+        <h3>Orders</h3>
+        <p class="card-value">1,249</p>
+        <p class="card-trend positive">+15% <span>vs last period</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="analytics-charts">
+    <div class="chart-container large">
+      <div class="chart-header">
+        <h3>Revenue Trends</h3>
+        <div class="chart-controls">
+          <button class="chart-control active">Line</button>
+          <button class="chart-control">Bar</button>
+          <button class="chart-control">Export</button>
+        </div>
+      </div>
+      <div class="chart-placeholder">
+        {/* Chart would be rendered here by chart library */}
+        <div class="chart-loading">Chart visualization would appear here</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-container medium">
+        <div class="chart-header">
+          <h3>Traffic Sources</h3>
+          <button class="chart-control">Export</button>
+        </div>
+        <div class="chart-placeholder">
+          {/* Pie chart would be rendered here */}
+          <div class="chart-loading">Traffic sources pie chart would appear here</div>
+        </div>
+      </div>
+      <div class="chart-container medium">
+        <div class="chart-header">
+          <h3>Device Distribution</h3>
+          <button class="chart-control">Export</button>
+        </div>
+        <div class="chart-placeholder">
+          {/* Device chart would be rendered here */}
+          <div class="chart-loading">Device distribution chart would appear here</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component renders user activity table correctly 1`] = `
+<div class="dashboard-activity">
+  <div class="activity-header">
+    <h2>Recent User Activity</h2>
+    <div class="activity-controls">
+      <div class="search-box">
+        <input type="text" placeholder="Search activities..." />
+        <button class="search-btn"></button>
+      </div>
+      <button class="filter-btn">Filter</button>
+      <button class="export-btn">Export CSV</button>
+    </div>
+  </div>
+  <table class="activity-table">
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Activity</th>
+        <th>Status</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="user-cell">
+          <div class="user-avatar" style="background-color: #4285F4"></div>
+          <div class="user-info">
+            <p class="user-name">John Doe</p>
+            <p class="user-email">john.doe@example.com</p>
+          </div>
+        </td>
+        <td>Created a new project</td>
+        <td><span class="status-badge complete">Complete</span></td>
+        <td>Aug 26, 2025</td>
+        <td>09:45 AM</td>
+        <td class="actions-cell">
+          <button class="view-btn"></button>
+          <button class="more-btn"></button>
+        </td>
+      </tr>
+      <tr>
+        <td class="user-cell">
+          <div class="user-avatar" style="background-color: #EA4335"></div>
+          <div class="user-info">
+            <p class="user-name">Jane Smith</p>
+            <p class="user-email">jane.smith@example.com</p>
+          </div>
+        </td>
+        <td>Uploaded 12 files</td>
+        <td><span class="status-badge complete">Complete</span></td>
+        <td>Aug 25, 2025</td>
+        <td>04:23 PM</td>
+        <td class="actions-cell">
+          <button class="view-btn"></button>
+          <button class="more-btn"></button>
+        </td>
+      </tr>
+      <tr>
+        <td class="user-cell">
+          <div class="user-avatar" style="background-color: #34A853"></div>
+          <div class="user-info">
+            <p class="user-name">Robert Johnson</p>
+            <p class="user-email">robert.j@example.com</p>
+          </div>
+        </td>
+        <td>Payment processed</td>
+        <td><span class="status-badge pending">Pending</span></td>
+        <td>Aug 25, 2025</td>
+        <td>02:17 PM</td>
+        <td class="actions-cell">
+          <button class="view-btn"></button>
+          <button class="more-btn"></button>
+        </td>
+      </tr>
+      <tr>
+        <td class="user-cell">
+          <div class="user-avatar" style="background-color: #FBBC05"></div>
+          <div class="user-info">
+            <p class="user-name">Emily Davis</p>
+            <p class="user-email">emily.d@example.com</p>
+          </div>
+        </td>
+        <td>Invited team members</td>
+        <td><span class="status-badge failed">Failed</span></td>
+        <td>Aug 24, 2025</td>
+        <td>11:30 AM</td>
+        <td class="actions-cell">
+          <button class="view-btn"></button>
+          <button class="more-btn"></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="pagination">
+    <button class="pagination-btn prev" disabled>Previous</button>
+    <div class="pagination-numbers">
+      <button class="page-number active">1</button>
+      <button class="page-number">2</button>
+      <button class="page-number">3</button>
+      <span class="pagination-ellipsis">...</span>
+      <button class="page-number">10</button>
+    </div>
+    <button class="pagination-btn next">Next</button>
+  </div>
+</div>
+`;
